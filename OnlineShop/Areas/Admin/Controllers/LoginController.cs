@@ -1,4 +1,5 @@
 ﻿using Model.Dao;
+using Model.EF;
 using OnlineShop.Areas.Admin.Models;
 using OnlineShop.Common;
 using System;
@@ -17,7 +18,7 @@ namespace OnlineShop.Areas.Admin.Controllers
             return View();
         }
 
-        public ActionResult Login(LoginModel model)
+        public ActionResult Login(User model)
         {
             if(ModelState.IsValid)
             {

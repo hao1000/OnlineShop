@@ -69,3 +69,7 @@ C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Model.dll
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Model.pdb
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.dll
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.dll
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.xml
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.xml

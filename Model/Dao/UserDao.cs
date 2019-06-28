@@ -7,6 +7,7 @@ using Model.EF;
 
 using System.Configuration;
 using System.Data.Common;
+using PagedList;
 
 namespace Model.Dao
 {
@@ -17,7 +18,10 @@ namespace Model.Dao
         {
             db = new OnlineShopDBContext();
         }
-
+        public IEnumerable<User> ListAllPaging(int page,int pageSize)
+        {
+            return db.User.OrderByDescending(x=>x.UserName).ToPagedList(page,pageSize);
+        }
         public long Insert(User entity)
         {
             db.User.Add(entity);
