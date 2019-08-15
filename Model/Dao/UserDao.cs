@@ -13,14 +13,20 @@ namespace Model.Dao
 {
     public class UserDao
     {
-        OnlineShopDBContext db = null;
+        OnlineShopDbContext db = null;
         public UserDao()
         {
-            db = new OnlineShopDBContext();
+            db = new OnlineShopDbContext();
         }
-        public IEnumerable<User> ListAllPaging(int page,int pageSize)
+        public IEnumerable<User> ListAllPaging(string searchString, int page,int pageSize)
         {
-            return db.User.OrderByDescending(x=>x.UserName).ToPagedList(page,pageSize);
+            IQueryable<User> model = db.User;
+            if(!string.IsNullOrEmpty(searchString))
+            {
+                model = model.Where(x => x.UserName.Contains(searchString) || x.Name.Contains(searchString));
+            }
+
+            return model.OrderByDescending(x => x.CreatedDate).ToPagedList(page, pageSize);
         }
         public long Insert(User entity)
         {
@@ -53,6 +59,7 @@ namespace Model.Dao
                 {
                     user.Password = entity.Password;
                 }
+                user.UserName = entity.UserName;
                 user.Address = entity.Address;
                 user.Email = entity.Email;
                 user.ModifiedBy = entity.ModifiedBy;

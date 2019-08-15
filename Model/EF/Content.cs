@@ -57,5 +57,7 @@ namespace Model.EF
 
         [StringLength(2)]
         public string Language { get; set; }
+
+        public virtual Category Category { get; set; }
     }
 }

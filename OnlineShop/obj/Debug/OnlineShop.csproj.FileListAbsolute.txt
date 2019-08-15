@@ -49,17 +49,12 @@ C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
-C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\EntityFramework.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
-C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
@@ -73,3 +68,5 @@ C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.dll
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.dll
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.xml
 C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.xml
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Common.exe
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\OnlineShop\bin\Common.pdb

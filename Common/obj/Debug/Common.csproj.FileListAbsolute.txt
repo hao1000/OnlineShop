@@ -1,0 +1,5 @@
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\Common\bin\Debug\Common.exe.config
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\Common\bin\Debug\Common.exe
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\Common\bin\Debug\Common.pdb
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\Common\obj\Debug\Common.exe
+C:\Users\hao-lv\Desktop\MVC\OnlineShop\Common\obj\Debug\Common.pdb

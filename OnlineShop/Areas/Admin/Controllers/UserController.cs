@@ -13,10 +13,10 @@ namespace OnlineShop.Areas.Admin.Controllers
     {
         // Hiển thị danh sách User
         // GET: Admin/User
-        public ActionResult Index(int page=1,int pageSize=3)
+        public ActionResult Index(string searchString, int page=1,int pageSize=3)
         {
             var dao = new UserDao();
-            var model = dao.ListAllPaging(page, pageSize);
+            var model = dao.ListAllPaging(searchString,page, pageSize);
             return View(model);
         }
    
@@ -85,6 +85,20 @@ namespace OnlineShop.Areas.Admin.Controllers
             new UserDao().Delete(id);
             return RedirectToAction("Index") ;
         }
-
+        [HttpGet]
+        public PartialViewResult messagepage()
+        {
+            // Ten view PartialViewResult da tao
+            return PartialView("message");
+        }
+        [HttpPost]
+        public JsonResult ChangeStatus(long id)
+        {
+            var result = new UserDao().ChangeStatus(id);
+            return Json(new
+            {
+                status = result
+            });
+        }
     }
 }

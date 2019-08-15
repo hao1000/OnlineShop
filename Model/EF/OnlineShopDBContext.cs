@@ -4,11 +4,12 @@ namespace Model.EF
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using System.Web.Configuration;
 
-    public partial class OnlineShopDBContext : DbContext
+    public partial class OnlineShopDbContext: DbContext
     {
-        public OnlineShopDBContext()
-            : base("name=OnlineShopDBContext")
+        public OnlineShopDbContext()
+            : base("name=OnlineShopDbContext")
         {
         }
 
@@ -29,7 +30,6 @@ namespace Model.EF
         public virtual DbSet<ProductCategory> ProductCategory { get; set; }
         public virtual DbSet<Role> Role { get; set; }
         public virtual DbSet<Slide> Slide { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<SystemConfig> SystemConfig { get; set; }
         public virtual DbSet<Tag> Tag { get; set; }
         public virtual DbSet<User> User { get; set; }
